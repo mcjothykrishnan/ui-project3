@@ -1,12 +1,18 @@
-.gcolor{
-    color: #03C7AC;
+.gcolor {
+  color: #03c7ac;
 }
-.bgcolor{
-    background-color: #03C7AC ;
+.bgcolor {
+  background-color: #03c7ac;
 }
-.testi{
-    background-color:#F7F7F7; 
+.testi {
+  background-color: #f7f7f7;
 }
-.dar{
-background-color: #242C36;
+.dar {
+  background-color: #242c36;
+}
+.nav-link:hover {
+  color: #03c7ac !important;
+}
+#proba {
+  height: 25px;
 }

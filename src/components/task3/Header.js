@@ -1,11 +1,10 @@
-import React from 'react'
-import logo from  "./images/logo.png"
+import React from "react";
+import logo from "./images/logo.png";
 export default function Header() {
   return (
     <>
-   
-    {/* nav1 */}
- <nav className="navbar navbar-expand-lg dar  ">
+      {/* nav1 */}
+      <nav className="navbar navbar-expand-lg dar  ">
         <div className="container text-white">
           <button
             className="navbar-toggler"
@@ -71,54 +70,64 @@ export default function Header() {
         </div>
       </nav>
       {/* nav2 */}
-      
-<nav class="navbar navbar-expand-lg  bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#!">
-      <img src={logo} alt="" width="121" height="43"/>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon bgcolor"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item text-center">
-        <i class="fas fa-home "></i>
-          <a class="nav-link " aria-current="page" href="#!">HOME</a>
-        </li>
-        <li class="nav-item text-center">
-        <i class="fa-solid fa-tag "></i>
-          <a class="nav-link" href="#!">ABOUT</a>
-        </li>
-        <li class="nav-item text-center">
-        <i class="fa-solid fa-user "></i>
-          <a class="nav-link" href="#!">PORTFOLIO</a>
-        </li>
-        <li class="nav-item text-center">
-        <i class="fa-brands fa-servicestack "></i>
-          <a class="nav-link" href="#!">SERVICE</a>
-        </li>
-        <li class="nav-item text-center">
-        <i class="fa-sharp fa-solid fa-address-card "></i>
-          <a class="nav-link" href="#!">CONTACT</a>
-        </li>
-        <li class="nav-item ">
-        <i class="fa-solid fa-magnifying-glass fa-2x  btn rounded-circle testi d-flex justify-content-center align-items-center"></i>
-          
-        </li>
-       
-        
-      </ul>
 
-    </div>
+      <nav class="navbar navbar-expand-lg  bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#!">
+            <img src={logo} alt="" width="121" height="43" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon bgcolor"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item text-center">
+                <i class="fas fa-home "></i>
+                <a class="nav-link " aria-current="page" href="#!">
+                  HOME
+                </a>
+              </li>
+              <li class="nav-item text-center">
+                <i class="fa-solid fa-tag "></i>
+                <a class="nav-link" href="#!">
+                  ABOUT
+                </a>
+              </li>
+              <li class="nav-item text-center">
+                <i class="fa-solid fa-user "></i>
+                <a class="nav-link" href="#!">
+                  PORTFOLIO
+                </a>
+              </li>
+              <li class="nav-item text-center">
+                <i class="fa-brands fa-servicestack "></i>
+                <a class="nav-link" href="#!">
+                  SERVICE
+                </a>
+              </li>
+              <li class="nav-item text-center">
+                <i class="fa-sharp fa-solid fa-address-card "></i>
+                <a class="nav-link" href="#!">
+                  CONTACT
+                </a>
+              </li>
+              <li class="nav-item ">
+                <i class="fa-solid fa-magnifying-glass fa-2x  btn rounded-circle testi d-flex justify-content-center align-items-center"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-
-
-  
-  </div>
-</nav>
-
-{/* Carousal */}
+      {/* Carousal */}
       <div
         id="myCarousel"
         class="carousel slide carousel-fade"
@@ -139,11 +148,8 @@ export default function Header() {
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
-        
         </div>
         <div class="carousel-inner">
-          
-
           <div class="carousel-item active">
             <img
               src="https://www.fringsgruppe.de/wp-content/uploads/2016/09/Frings-Elektroinstallationstechnik-TGA-Referenz-KuBiz-590p.jpg"
@@ -154,15 +160,13 @@ export default function Header() {
             <div class="container">
               <div class="carousel-caption  text-start">
                 <h1>Trusted by more than 50,000 businesses worldwide.</h1>
-                <p>
-                Over 180 countries and 120 currencies supported.
-                </p>
+                <p>Over 180 countries and 120 currencies supported.</p>
                 <p>
                   <a class="btn btn-lg bgcolor text-white" href="#!">
-                  LEARN MORE
+                    LEARN MORE
                   </a>
                   <a class="btn btn-lg gcolor" href="#!">
-                 BUY NOW
+                    BUY NOW
                   </a>
                 </p>
               </div>
@@ -178,22 +182,18 @@ export default function Header() {
             <div class="container">
               <div class="carousel-caption  text-start">
                 <h1>Trusted by more than 50,000 businesses worldwide.</h1>
-                <p>
-                Over 180 countries and 120 currencies supported.
-                </p>
+                <p>Over 180 countries and 120 currencies supported.</p>
                 <p>
                   <a class="btn btn-lg bgcolor text-white" href="#!">
-                  LEARN MORE
+                    LEARN MORE
                   </a>
                   <a class="btn btn-lg gcolor" href="#!">
-                 BUY NOW
+                    BUY NOW
                   </a>
                 </p>
               </div>
             </div>
           </div>
-
-         
         </div>
 
         <button
@@ -216,6 +216,5 @@ export default function Header() {
         </button>
       </div>
     </>
-  )
+  );
 }
-

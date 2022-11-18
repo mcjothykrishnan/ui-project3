@@ -24,16 +24,15 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <a href="#Privacy" className="nav-link text-white  h2">
-                  English 
+                  English
                 </a>
-                
               </li>
-              
+
               <h2 className="mx-2"> | </h2>
-            
+
               <li className="nav-item">
                 <a href="#Contact" className="nav-link gcolor  h2">
-                    Phone:
+                  Phone:
                 </a>
               </li>
               <li className="nav-item">
@@ -123,7 +122,6 @@ export default function Header() {
                   CONTACT
                 </a>
               </li>
-              
             </ul>
             <i class="fa-solid fa-magnifying-glass border p-2 rounded-circle testi"></i>
           </div>

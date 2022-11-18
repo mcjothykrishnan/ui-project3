@@ -15,7 +15,7 @@ export default function Footer() {
           />
           <div className="container row g-0 d-flex  justify-content-between align-items-center">
             <div
-              className="col-md-4 d-flex flex-column"
+              className="col-md-4 d-flex flex-column "
               style={{ width: "400px" }}
             >
               <div
@@ -208,7 +208,7 @@ export default function Footer() {
         </button>
       </div>
       {/* map */}
-      <section class="p-5">
+      <section class="p-0 p-md-5">
         <div class="container">
           <div class="row g-4">
             <div class="col-md">
@@ -274,13 +274,13 @@ export default function Footer() {
       {/* footer */}
       <div className="container-fluid dar pt-4">
         <div class="container ">
-          <footer class="text-center text-lg-start text-white ">
+          <footer class="text-center- text-lg-start text-white ">
             <div class="container text-center text-md-start mt-5">
               <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   <h6 class="text-uppercase fw-bold">ABOUT US</h6>
 
-                  <p>
+                  <p className="text-start">
                     Here you can use rows and columns to organize your footer
                     content. Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit.
@@ -314,69 +314,73 @@ export default function Footer() {
                   </ul>
                 </div>
 
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold">USEFUL LINK</h6>
-
-                  <p>
-                    <a href="#!" class="text-white">
-                      <i class="fa-solid fa-play me-2"></i>
-                      Bootstrap
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-white">
-                      <i class="fa-solid fa-play me-2"></i>
-                      WordPress
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-white">
-                      <i class="fa-solid fa-play me-2"></i>
-                      BrandFlow
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-white">
-                      <i class="fa-solid fa-play me-2"></i>
-                      Bootstrap Angular
-                    </a>
-                  </p>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto ">
+                  <h6 class="text-uppercase fw-bold mb-4">USEFUL LINK</h6>
+                  <div className="text-start">
+                    <p>
+                      <a href="#!" class="text-white mb-4">
+                        <i class="fa-solid fa-play me-2"></i>
+                        Bootstrap
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white mb-4">
+                        <i class="fa-solid fa-play me-2"></i>
+                        WordPress
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white mb-4">
+                        <i class="fa-solid fa-play me-2"></i>
+                        BrandFlow
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">
+                        <i class="fa-solid fa-play me-2 mb-0"></i>
+                        Bootstrap Angular
+                      </a>
+                    </p>
+                  </div>
                 </div>
 
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
-                  <p>
-                    <a href="#!" class="text-white">
-                      <i class="fa-solid fa-play  me-2"></i>
-                      Become an Affiliate
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-white">
-                      <i class="fa-solid fa-play me-2"></i>
-                      Shipping Rates
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-white">
-                      <i class="fa-solid fa-play me-2"></i>
-                      Help
-                    </a>
-                  </p>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-0 mt-md-5">
+                  <div className="text-start">
+                    {" "}
+                    <p>
+                      <a href="#!" class="text-white">
+                        <i class="fa-solid fa-play  me-2"></i>
+                        Become an Affiliate
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">
+                        <i class="fa-solid fa-play me-2"></i>
+                        Shipping Rates
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">
+                        <i class="fa-solid fa-play me-2"></i>
+                        Help
+                      </a>
+                    </p>
+                  </div>
                 </div>
-
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  <h6 class="text-uppercase fw-bold">CONTACT US</h6>
-
-                  <p>New York, NY 10012, US</p>
-                  <p>
-                    <span className="gcolor">Email :</span> info@example.com
-                  </p>
-                  <p>
-                    <span className="gcolor">Phone :</span> + 01 234 567 88
-                  </p>
-                  <p>
-                    <span className="gcolor">Fax :</span> + 01 234 567 89
-                  </p>
+                  <h6 class="fw-bold">CONTACT US</h6>
+                  <div className="text-start">
+                    <p>New York, NY 10012, US</p>
+                    <p>
+                      <span className="gcolor">Email :</span> info@example.com
+                    </p>
+                    <p>
+                      <span className="gcolor">Phone :</span> + 01 234 567 88
+                    </p>
+                    <p>
+                      <span className="gcolor">Fax :</span> + 01 234 567 89
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

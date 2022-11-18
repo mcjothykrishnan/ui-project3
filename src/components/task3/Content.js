@@ -9,17 +9,17 @@ export default function Content() {
       {/* BRAND */}
       <div className="container-fluid rounded text-center d-flex justify-content-center text-white py-4">
         <div className="container row g-4 text-center">
-          <div className="col-md-6 col-lg-3">
+          <div className="col-6 col-lg-3">
             <img src={img1} class="w-100" alt="Louvre" />
           </div>
-          <div className="col-md-6 col-lg-3">
+          <div className="col-6 col-lg-3">
             <img src={img2} class="w-100" alt="Louvre" />
           </div>
-          <div className="col-md-6 col-lg-3">
+          <div className="col-6 col-lg-3">
             <img src={img3} class="w-100" alt="Louvre" />
           </div>
 
-          <div className="col-md-6 col-lg-3">
+          <div className="col-6 col-lg-3">
             <img src={img4} class="w-100" alt="Louvre" />
           </div>
         </div>
@@ -112,8 +112,8 @@ export default function Content() {
         <div>
           <div>
             <div>
-              <div className="row d-flex justify-content-between rounded align-items-center ">
-                <div className="col-md-3 m-1 border border-rounded">
+              <div className="row  d-flex  justify-content-around align-items-center ">
+                <div className="col-md-3  border bor ">
                   <div className="fw-bold py-2  d-flex justify-content-center align-items-center flex-column  ">
                     <span className="fa-3x  gcolor">
                       <i class="fa-solid fa-crop-simple"></i>
@@ -130,7 +130,7 @@ export default function Content() {
                   </div>
                   <div className="gcolor text-center">see more</div>
                 </div>
-                <div className="col-md-3 m-1 border border-rounded">
+                <div className="col-md-3  border bor">
                   <div className="fw-bold py-2  d-flex justify-content-center align-items-center flex-column  ">
                     <span className="fa-3x gcolor">
                       <i class="fa-brands fa-php"></i>
@@ -147,7 +147,8 @@ export default function Content() {
                   </div>
                   <div className="gcolor text-center">see more</div>
                 </div>
-                <div className="col-md-3 m-1 border border-rounded">
+
+                <div className="col-md-3  border bor">
                   <div className="fw-bold py-2  d-flex justify-content-center align-items-center flex-column  ">
                     <span className="fa-3x gcolor">
                       <i class="fa-sharp fa-solid fa-circle-info"></i>

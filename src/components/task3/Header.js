@@ -16,52 +16,56 @@ export default function Header() {
           </button>
 
           <div className="collapse navbar-collapse" id="navmenu1">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav d-flex flex-row">
               <li className="nav-item">
-                <a href="#Help" className="nav-link gcolor">
+                <a href="#Help" className="nav-link gcolor h2">
                   Language:
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Privacy" className="nav-link text-white">
-                  English
+                <a href="#Privacy" className="nav-link text-white  h2">
+                  English 
+                </a>
+                
+              </li>
+              
+              <h2 className="mx-2"> | </h2>
+            
+              <li className="nav-item">
+                <a href="#Contact" className="nav-link gcolor  h2">
+                    Phone:
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Contact" className="nav-link gcolor">
-                  Phone:
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#Contact" className="nav-link text-white">
+                <a href="#Contact" className="nav-link text-white  h2">
                   +345353534535
                 </a>
               </li>
             </ul>
 
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto d-flex flex-row ">
               <li className="nav-item">
-                <a href="#Link" className="nav-link text-white">
+                <a href="#Link" className="nav-link text-white me-2">
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Link" className="nav-link text-white">
+                <a href="#Link" className="nav-link text-white me-2">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Link" className="nav-link text-white">
+                <a href="#Link" className="nav-link text-white me-2">
                   <i class="fa-brands fa-google-plus-g"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Link" className="nav-link text-white">
+                <a href="#Link" className="nav-link text-white me-2">
                   <i class="fa-brands fa-skype"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Link" className="nav-link text-white">
+                <a href="#Link" className="nav-link text-white me-2">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
@@ -88,41 +92,40 @@ export default function Header() {
             <span class="navbar-toggler-icon bgcolor"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item text-center">
+            <ul class="navbar-nav ms-auto d-flex flex-row justify-content-between">
+              <li class="nav-item text-center ">
                 <i class="fas fa-home "></i>
                 <a class="nav-link " aria-current="page" href="#!">
                   HOME
                 </a>
               </li>
-              <li class="nav-item text-center">
+              <li class="nav-item text-center  ">
                 <i class="fa-solid fa-tag "></i>
                 <a class="nav-link" href="#!">
                   ABOUT
                 </a>
               </li>
-              <li class="nav-item text-center">
+              <li class="nav-item text-center  ">
                 <i class="fa-solid fa-user "></i>
                 <a class="nav-link" href="#!">
                   PORTFOLIO
                 </a>
               </li>
-              <li class="nav-item text-center">
+              <li class="nav-item text-center  ">
                 <i class="fa-brands fa-servicestack "></i>
                 <a class="nav-link" href="#!">
                   SERVICE
                 </a>
               </li>
-              <li class="nav-item text-center">
+              <li class="nav-item text-center  ">
                 <i class="fa-sharp fa-solid fa-address-card "></i>
                 <a class="nav-link" href="#!">
                   CONTACT
                 </a>
               </li>
-              <li class="nav-item ">
-                <i class="fa-solid fa-magnifying-glass fa-2x  btn rounded-circle testi d-flex justify-content-center align-items-center"></i>
-              </li>
+              
             </ul>
+            <i class="fa-solid fa-magnifying-glass border p-2 rounded-circle testi"></i>
           </div>
         </div>
       </nav>
